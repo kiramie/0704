@@ -5,285 +5,205 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇬🇧 (已存活1天)英国-1.86MB/s, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 (已存活1天)加拿大-3.20MB/s, server: 134.195.196.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港-2.98MB/s, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇦🇷 阿根廷-1.29MB/s, server: 91.206.168.24, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇲 美国-1.12MB/s, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 (已存活1天)加拿大-3.26MB/s, server: 134.195.196.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 (已存活1天)加拿大-1.29MB/s, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大-1.01MB/s, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇷🇺 俄罗斯联邦-2.07MB/s, server: 193.53.127.125, port: 443, type: vmess, uuid: fa6ee7b8-6279-4c04-adf3-adbb70f71cf9, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /jjyun, ws-headers: {Host: 193.53.127.125}}
-  - {name: 🇨🇦 加拿大-2.39MB/s, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大-3.17MB/s, server: 134.195.196.110, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 (已存活1天)加拿大-2.36MB/s, server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大-938.0KB/s, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国-1.12MB/s, server: 185.108.106.164, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇨🇦 (已存活1天)加拿大-1.38MB/s, server: 134.195.196.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇭🇰 香港-2.07MB/s, server: 62.216.92.180, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
-  - {name: 🇺🇲 (已存活1天)美国-1.84MB/s, server: 128.14.157.112, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 128.14.157.112}}
-  - {name: 🇬🇧 英国-956.5KB/s, server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大-1.74MB/s, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大-1.76MB/s, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国-1.28MB/s, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 (已存活1天)加拿大-1.99MB/s, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 阿塞拜疆-1.15MB/s, server: 94.20.154.69, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇲 美国-2.29MB/s, server: 154.16.171.215, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇲 美国-4.33MB/s, server: 143.198.98.207, port: 10088, type: trojan, password: 79fb4d2f-9632-4fb3-9851-72cc77b2b4e4}
-  - {name: 🇨🇦 加拿大-1.43MB/s, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大-1.50MB/s, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 (已存活1天)加拿大-1.40MB/s, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国-3.30MB/s, server: 192.111.134.207, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇨🇦 (已存活2天)加拿大-3.06MB/s, server: 134.195.196.231, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇳🇱 荷兰-3.17MB/s, server: 46.182.107.120, port: 443, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.61565848.xyz}}
+  - {name: 🇺🇲 美国-1.01MB/s, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 新加坡-2.46MB/s, server: 81.90.189.85, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: 🇨🇦 加拿大-3.00MB/s, server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国-1.45MB/s, server: 38.107.226.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 (已存活2天)加拿大-3.18MB/s, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国-3.30MB/s, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇦🇺 澳大利亚-2.42MB/s, server: 172.105.172.41, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 挪威-1.01MB/s, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇳 中国-2.89MB/s, server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 3fc6865a-f716-4f4b-befc-d4c938e79b6a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇦🇺 澳大利亚-2.37MB/s, server: 172.105.172.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 澳大利亚-2.42MB/s 2, server: 172.105.172.41, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港-5.18MB/s, server: 149.129.70.207, port: 53999, type: vmess, uuid: 60665a07-09d5-3505-9bd4-c09d02fe46b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /zhs, ws-headers: {Host: 149.129.70.207}}
+  - {name: 🇨🇦 (已存活1天)加拿大-2.13MB/s, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大-1.81MB/s, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大-3.26MB/s, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 香港-18.94MB/s, server: enncpfg.rcszbq.xyz, port: 28558, type: ss, cipher: aes-128-gcm, password: nexitally, plugin: obfs, plugin-opts: {mode: http, host: aa8a2810d67f4d93.download.microsoft.com}}
+  - {name: 🇳🇱 荷兰-820.0KB/s, server: 154.84.1.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 🇺🇲 美国-2.42MB/s, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大-3.26MB/s 2, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -306,36 +226,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 (已存活1天)英国-1.86MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.20MB/s
-      - 🇭🇰 香港-2.98MB/s
-      - 🇦🇷 阿根廷-1.29MB/s
-      - 🇺🇲 美国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-3.26MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.29MB/s
-      - 🇨🇦 加拿大-1.01MB/s
-      - 🇷🇺 俄罗斯联邦-2.07MB/s
-      - 🇨🇦 加拿大-2.39MB/s
-      - 🇨🇦 加拿大-3.17MB/s
-      - 🇨🇦 (已存活1天)加拿大-2.36MB/s
-      - 🇨🇦 加拿大-938.0KB/s
-      - 🇫🇷 法国-1.12MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.38MB/s
-      - 🇭🇰 香港-2.07MB/s
-      - 🇺🇲 (已存活1天)美国-1.84MB/s
-      - 🇬🇧 英国-956.5KB/s
-      - 🇨🇦 加拿大-1.74MB/s
-      - 🇨🇦 加拿大-1.76MB/s
-      - 🇺🇲 美国-1.28MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.99MB/s
-      - 阿塞拜疆-1.15MB/s
-      - 🇺🇲 美国-2.29MB/s
-      - 🇺🇲 美国-4.33MB/s
-      - 🇨🇦 加拿大-1.43MB/s
-      - 🇨🇦 加拿大-1.50MB/s
-      - 🇨🇦 (已存活1天)加拿大-1.40MB/s
+      - 🇳🇱 荷兰-3.17MB/s
+      - 🇺🇲 美国-1.01MB/s
+      - 🇸🇬 新加坡-2.46MB/s
+      - 🇨🇦 加拿大-3.00MB/s
+      - 🇺🇲 美国-1.45MB/s
+      - 🇨🇦 (已存活2天)加拿大-3.18MB/s
       - 🇺🇲 美国-3.30MB/s
-      - 🇨🇦 (已存活2天)加拿大-3.06MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s
+      - 挪威-1.01MB/s
+      - 🇨🇳 中国-2.89MB/s
+      - 🇦🇺 澳大利亚-2.37MB/s
+      - 🇦🇺 澳大利亚-2.42MB/s 2
+      - 🇭🇰 香港-5.18MB/s
+      - 🇨🇦 (已存活1天)加拿大-2.13MB/s
+      - 🇨🇦 加拿大-1.81MB/s
+      - 🇨🇦 加拿大-3.26MB/s
+      - 🇭🇰 香港-18.94MB/s
+      - 🇳🇱 荷兰-820.0KB/s
+      - 🇺🇲 美国-2.42MB/s
+      - 🇨🇦 加拿大-3.26MB/s 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
